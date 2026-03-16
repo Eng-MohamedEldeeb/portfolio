@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 export const Hero = () => {
   const titles = [
     "Full Stack Developer",
-    "Space Explorer",
+    "System Explorer",
     "Code Architect",
     "System Builder",
   ];
@@ -50,7 +50,7 @@ export const Hero = () => {
         className="relative mb-8"
       >
         <div className="w-36 h-36 rounded-full border-2 border-blue-500/40 p-1 relative">
-          <div className="w-full h-full rounded-full bg-gradient-to-br from-blue-600/30 via-indigo-600/20 to-cyan-600/30 flex items-center justify-center text-5xl border border-blue-400/20">
+          <div className="w-full h-full rounded-full bg-gradient-to-br from-blue-600/30 via-indigo-600/20 to-cyan-600/30 flex items-center justify-center text-5xl border border-blue-400/20 overflow-hidden">
             <img src="/pic.jpg" alt="" />
           </div>
           <motion.div
@@ -73,9 +73,9 @@ export const Hero = () => {
           &gt; Initializing profile...
         </p>
         <h1 className="text-5xl md:text-7xl font-black text-white mb-4 tracking-tight leading-none">
-          John{" "}
+          Mohamed{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-600">
-            Cosmos
+            Mahmoud
           </span>
         </h1>
 
@@ -95,9 +95,12 @@ export const Hero = () => {
         </div>
 
         <p className="text-slate-400 max-w-lg mx-auto text-base leading-relaxed mb-10">
-          Crafting digital universes from frontend galaxies to backend nebulae.
-          I build systems that are as vast as space and as precise as a
-          satellite orbit.
+          A Motivated Backend Developer with strong analytical thinking and
+          hands-on experience in building reliable, scalable systems. I focus on
+          writing clean, maintainable code and understanding the core logic
+          behind every feature. I enjoy solving real problems, improving system
+          performance, and delivering efficient backend solutions. Always
+          learning, always improving, and always aiming to add a real value.
         </p>
 
         <div className="flex flex-wrap gap-4 justify-center">
